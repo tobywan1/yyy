@@ -1,0 +1,76 @@
+/* FeedPage.css */
+.feed-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header {
+    /* Add header styles */
+  }
+  
+  .video-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .video {
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .video video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-info {
+    margin-top: 10px;
+  }
+  
+  .bottom-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .bottom-buttons button {
+    margin: 0 10px;
+  }
+  
+  /* ProfilePage.css */
+  .profile-page {
+    text-align: center;
+  }
+  
+  .video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .video-list .video {
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .video-list .video video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-list .video-info {
+    margin-top: 10px;
+  }
+  
+  .video-list .video-actions {
+    margin-top: 10px;
+  }
+  
+  .video-list .video-actions button {
+    margin-right: 5px;
+  }
+  

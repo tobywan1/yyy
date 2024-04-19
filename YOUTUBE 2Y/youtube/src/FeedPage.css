@@ -1,0 +1,53 @@
+/* FeedPage.css */
+
+.feed-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative; /* Ensure positioning context for fixed buttons container */
+  }
+  
+  .header {
+    /* Add header styles */
+  }
+  
+  .profile-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .video-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .video {
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .video video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-info {
+    margin-top: 10px;
+  }
+  
+  .fixed-buttons-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .fixed-buttons-container button {
+    margin: 0 10px;
+  }
+  
